@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', false);
 mongoose.
-connect("mongodb+srv://ticket:4321@velvetblock.ykrp4uv.mongodb.net/?retryWrites=true&w=majority&appName=VelvetBlock")
+connect("mongodb+srv://alexander1478546:alexander1478546@cluster0.kb2np.mongodb.net/lovely-blogs")
 .then(()=>{
     console.log("Connected to database successfully!!");
 })
